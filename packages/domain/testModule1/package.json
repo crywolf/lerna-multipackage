@@ -1,7 +1,7 @@
 {
-  "name": "module1",
-  "version": "0.0.0-development",
-  "description": "module1 of test project for new dev env",
+  "name": "testModule1",
+  "version": "1.0.0",
+  "description": "Some module of test project for new dev env",
   "main": "index.js",
   "scripts": {
     "test": "mocha --opts ./mocha.opts",
@@ -15,5 +15,8 @@
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
     "nsp": "^2.6.2"
+  },
+  "publishConfig": {
+    "registry": "http://jenkins.billboard.intra:4873/"
   }
 }

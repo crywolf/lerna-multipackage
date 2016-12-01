@@ -1,6 +1,6 @@
 {
   "name": "LernaMultipackage",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.1",
   "description": "",
   "scripts": {
     "security": "nsp check"
@@ -15,5 +15,9 @@
     "lerna": "2.0.0-beta.30",
     "mocha": "^3.2.0",
     "nsp": "^2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crywolf/typescript-test.git"
   }
 }
