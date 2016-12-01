@@ -1,0 +1,19 @@
+{
+  "name": "LernaMultipackage",
+  "version": "0.0.0-semantically-released",
+  "description": "",
+  "scripts": {
+    "security": "nsp check"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.1.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lerna": "2.0.0-beta.30",
+    "mocha": "^3.2.0",
+    "nsp": "^2.6.2"
+  }
+}
