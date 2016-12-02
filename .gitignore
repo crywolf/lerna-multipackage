@@ -1,4 +1,6 @@
-node_modules
+node_modules/
+packages/
 npm-debug.log
 yarn-error.log
+lerna-debug.log
 .idea/
