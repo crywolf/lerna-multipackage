@@ -1,6 +1,6 @@
 {
   "name": "LernaMultipackage",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "commit": "git-cz",
@@ -15,10 +15,8 @@
     "reflect-metadata": "^0.1.8"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
     "cz-lerna-changelog": "^0.3.1",
     "lerna": "2.0.0-beta.30",
-    "mocha": "^3.2.0",
     "nsp": "^2.6.2"
   },
   "repository": {
@@ -29,5 +27,8 @@
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
+  },
+  "publishConfig": {
+    "registry": "http://jenkins.billboard.intra:4873/"
   }
 }
