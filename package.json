@@ -3,15 +3,20 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
+    "commit": "git-cz",
     "security": "nsp check"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@krux/condition-jenkins": "^1.0.1",
+    "commitizen": "^2.8.6",
+    "lerna-semantic-release": "^8.0.2",
     "reflect-metadata": "^0.1.8"
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "cz-lerna-changelog": "^0.3.1",
     "lerna": "2.0.0-beta.30",
     "mocha": "^3.2.0",
     "nsp": "^2.6.2"
@@ -19,5 +24,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/crywolf/typescript-test.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   }
 }
