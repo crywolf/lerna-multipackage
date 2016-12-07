@@ -6,6 +6,8 @@ app = new App();
 
 app.start({name: app.constructor.name});
 
-const result = testModule1.doSomething();
+let result = testModule1.doSomething();
+
+result += ' ' + testModule1.doAnotherThing();
 
 console.log(result);
