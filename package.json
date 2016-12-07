@@ -6,13 +6,16 @@
     "bootstrap": "./node_modules/.bin/lerna bootstrap",
     "setup": "./scripts/lerna-setup.sh && npm run bootstrap",
     "commit": "git-cz",
-    "security": "nsp check"
+    "security": "nsp check",
+    "test": "./node_modules/.bin/lerna run test -- --silent",
+    "prepush": "npm run test --silent"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@krux/condition-jenkins": "^1.0.1",
     "commitizen": "^2.8.6",
+    "husky": "^0.11.9",
     "lerna-semantic-release": "^8.0.2",
     "reflect-metadata": "^0.1.8"
   },
