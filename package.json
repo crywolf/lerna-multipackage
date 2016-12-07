@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "bootstrap": "./node_modules/.bin/lerna bootstrap",
+    "setup": "./scripts/lerna-setup.sh && npm run bootstrap",
     "commit": "git-cz",
     "security": "nsp check"
   },

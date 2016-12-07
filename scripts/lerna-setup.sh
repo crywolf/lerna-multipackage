@@ -31,3 +31,6 @@ for dir in ${DIRS[*]}; do
         done
     fi
 done
+
+# To push tags automatically (We need to push release tags during semantic-release versioning]
+git config --global push.followTags true
