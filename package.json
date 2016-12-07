@@ -8,7 +8,8 @@
     "commit": "git-cz",
     "security": "nsp check",
     "test": "./node_modules/.bin/lerna run test -- --silent",
-    "prepush": "npm run test --silent"
+    "semantic-release": "./node_modules/.bin/lerna-semantic-release pre",
+    "prepush": "npm run test --silent && npm run semantic-release"
   },
   "author": "",
   "license": "ISC",
