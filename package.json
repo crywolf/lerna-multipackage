@@ -17,8 +17,7 @@
     "@krux/condition-jenkins": "^1.0.1",
     "commitizen": "^2.8.6",
     "husky": "^0.11.9",
-    "lerna-semantic-release": "^8.0.2",
-    "reflect-metadata": "^0.1.8"
+    "lerna-semantic-release": "^8.0.2"
   },
   "devDependencies": {
     "cz-lerna-changelog": "^0.3.1",

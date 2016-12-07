@@ -1892,10 +1892,6 @@ redent@^1.0.0:
     indent-string "^2.1.0"
     strip-indent "^1.0.1"
 
-reflect-metadata@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.8.tgz#72426d570b60776e3688968bd5ab9537a15cecf6"
-
 regenerator-runtime@^0.9.5:
   version "0.9.6"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.9.6.tgz#d33eb95d0d2001a4be39659707c51b0cb71ce029"

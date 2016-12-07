@@ -11,7 +11,7 @@ describe('App', () => {
 
     describe('application', () => {
         it('should have start function', () => {
-            expect(app.start).to.be.function;
+            expect(app.start).to.be.a('function');
         });
 
     });
