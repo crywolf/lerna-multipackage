@@ -9,9 +9,15 @@ describe('DevEnvTest', () => {
         devEnvTest = new DevEnvTest();
     });
 
-    describe('when asked to run tests', () => {
-        it('should execute tests', () => {
+    describe('doSomething', () => {
+        it('should return correct string', () => {
             expect(devEnvTest.doSomething()).to.equal('Well done!');
+        });
+    });
+
+    describe('doAnotherThing', () => {
+        it('should return correct string', () => {
+            expect(devEnvTest.doAnotherThing()).to.equal('I can do a lot!');
         });
     });
 
