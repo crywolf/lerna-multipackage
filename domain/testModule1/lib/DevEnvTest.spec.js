@@ -21,4 +21,10 @@ describe('DevEnvTest', () => {
         });
     });
 
+    describe('doAnotherCoolStuff', () => {
+        it('should return correct string', () => {
+            expect(devEnvTest.doAnotherCoolStuff()).to.equal('And that is cool!');
+        });
+    });
+
 });
