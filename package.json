@@ -9,7 +9,7 @@
     "security": "nsp check",
     "test": "./node_modules/.bin/lerna run test -- --silent",
     "semantic-release": "./node_modules/.bin/lerna-semantic-release pre",
-    "prepush": "npm run test --silent && npm run semantic-release"
+    "prepush": "npm run test --silent && ./scripts/pre-push.sh"
   },
   "author": "",
   "license": "ISC",
