@@ -1,9 +1,9 @@
 #!/bin/bash
 
 PRE_SEMANTIC_RELEASE_COMMIT=`git rev-parse HEAD`
-
+./node_modules/.bin/lerna updated
 npm run semantic-release
-
+./node_modules/.bin/lerna updated
 POST_SEMANTIC_RELEASE_COMMIT=`git rev-parse HEAD`
 
 if [ "$POST_SEMANTIC_RELEASE_COMMIT" == "$PRE_SEMANTIC_RELEASE_COMMIT" ]; then
