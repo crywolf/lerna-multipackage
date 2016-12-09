@@ -9,6 +9,7 @@
     "security": "nsp check",
     "test": "./node_modules/.bin/lerna run test -- --silent",
     "semantic-release": "./node_modules/.bin/lerna-semantic-release pre",
+    "changelog": "./node_modules/.bin/lerna-semantic-release post",
     "prepush": "npm run test --silent && ./scripts/pre-push.sh"
   },
   "author": "",
