@@ -14,15 +14,14 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@krux/condition-jenkins": "^1.0.1",
     "commitizen": "^2.8.6",
-    "husky": "^0.11.9",
-    "lerna-semantic-release": "^8.0.2"
-  },
-  "devDependencies": {
     "cz-lerna-changelog": "^0.3.1",
+    "husky": "^0.11.9",
     "lerna": "2.0.0-beta.30",
+    "lerna-semantic-release": "^8.0.2",
     "nsp": "^2.6.2"
   },
   "repository": {
