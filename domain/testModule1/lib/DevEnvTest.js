@@ -8,8 +8,8 @@ class DevEnvTest {
         return 'I can do a lot!';
     }
 
-    doAnotherCoolStuff() {
-        return 'And that is cool!';
+    doAnotherHotStuff() {
+        return 'And that is hot!';
     }
 
 }
