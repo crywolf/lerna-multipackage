@@ -10,6 +10,8 @@ let result = testModule1.doSomething();
 
 result += ' ' + testModule1.doAnotherThing();
 
+result += `\n${testModule1.doAnotherCoolStuff()}`;
+
 console.log(result);
 
 app.finish();
