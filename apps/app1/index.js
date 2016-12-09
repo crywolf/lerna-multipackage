@@ -11,3 +11,5 @@ let result = testModule1.doSomething();
 result += ' ' + testModule1.doAnotherThing();
 
 console.log(result);
+
+app.finish();
