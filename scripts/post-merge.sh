@@ -1,5 +1,7 @@
 #!/bin/bash
 
+unset GIT_DIR
+
 GIT_BRANCH=`git symbolic-ref --short HEAD`
 
 if [ "$GIT_BRANCH" != "master" ]; then
