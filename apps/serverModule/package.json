@@ -1,0 +1,12 @@
+{
+  "name": "serverModule",
+  "version": "0.0.0",
+  "description": "Simple http server",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "publishConfig": {
+    "registry": "http://jenkins.billboard.intra:4873/"
+  }
+}

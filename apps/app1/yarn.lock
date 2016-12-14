@@ -355,6 +355,10 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
+testModule1@^2.0.0:
+  version "2.0.0"
+  resolved "http://jenkins.billboard.intra:4873/testModule1/-/testModule1-2.0.0.tgz#8d68c148af612018c6053ad80697c23100c16be7"
+
 topo@1.x.x:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/topo/-/topo-1.1.0.tgz#e9d751615d1bb87dc865db182fa1ca0a5ef536d5"
