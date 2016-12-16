@@ -29,3 +29,12 @@ When the new module is completely finished and you want to publish a new package
 
 Create a pull request. When this pull request is merged to master branch, version in `package.json` will be set to 1.0.0 and after push a new module package will be published.
 Then you can use it as a dependency in `package.json` files of other modules.
+
+## Workflow
+
+* Create a feature or bug-fix branch. Continuously commit your progress by running `yarn commit`. The new feature must have one feature commit with "affects" field properly set to the module name. (The same rule applies for each bug-fix.)
+* Push your changes to the remote repo.
+* Create a pull request.
+* When your pull request is merged to master branch, version of affected module will be set accordingly ([semver](http://semver.org/))
+* When the master branch is pushed to the remote repo the new version of the module package will be published by CI server. 
+* Subsequently the new package version can be used in other modules.
