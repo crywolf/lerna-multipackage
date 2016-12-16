@@ -1,5 +1,6 @@
 const App = require('./src/App');
 const testModule1 = require('testModule1');
+const server = require('serverModule');
 
 const app = new App();
 
@@ -14,3 +15,5 @@ result += `\n${testModule1.doAnotherHotStuff()}`;
 console.log(result);
 
 app.finish();
+
+server.start(5000);
