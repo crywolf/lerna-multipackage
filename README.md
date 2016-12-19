@@ -31,10 +31,10 @@ Create a pull request. When this pull request is merged to master branch, versio
 Then you can use it as a dependency in `package.json` files of other modules.
 
 ## Workflow
-
 * Create a feature or bug-fix branch. Continuously commit your progress by running `yarn commit`. The new feature must have one feature commit with "affects" field properly set to the module name. (The same rule applies for each bug-fix.)
 * Push your changes to the remote repo.
 * Create a pull request.
 * When your pull request is merged to master branch, version of affected module will be set accordingly ([semver](http://semver.org/))
-* When the master branch is pushed to the remote repo the new version of the module package will be published by CI server. 
+* When the master branch is pushed to the remote repo the new version of the module package will be published by CI server.
+* Next you can create/update Changelog files by running `yarn changelog` and commit/push them to the remote repo.
 * Subsequently the new package version can be used in other modules.
