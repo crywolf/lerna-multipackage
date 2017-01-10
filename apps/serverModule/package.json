@@ -1,6 +1,6 @@
 {
   "name": "serverModule",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple http server",
   "main": "index.js",
   "license": "ISC",
