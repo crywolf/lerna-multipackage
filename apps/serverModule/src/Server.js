@@ -5,8 +5,8 @@ class Server {
         const onResponse = (request, response) => {
             response.setHeader("Content-Type", "text/html; charset=utf-8");
             response.writeHead(200, {"Content-Type": "text/plain"});
-            response.end("Ahoj :)");
-        }
+            response.end("Ahoj, zdraví tě server :)");
+        };
 
         const server = http.createServer(onResponse);
         server.listen(port);
