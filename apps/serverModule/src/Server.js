@@ -11,7 +11,7 @@ class Server {
         const server = http.createServer(onResponse);
         server.listen(port);
 
-        console.log(`Server running at http://127.0.0.1:${port}/`);
+        console.log(`Server is running at http://127.0.0.1:${port}/`);
     }
 }
 
